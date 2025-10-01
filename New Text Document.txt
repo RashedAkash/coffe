@@ -1,0 +1,1 @@
+sass --watch C:\coffe\assets\scss\main.scss:C:\coffe\assets\css\style.css
