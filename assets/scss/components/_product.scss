@@ -1,17 +1,32 @@
-@use '../utils/' as *;
-.tpproduct{
-    &-area{
+@use "../utils/" as *;
+.tpproduct {
+  &-area {
+  }
+  &-wrapper {
+    padding: 25px;
 
+    box-shadow: (0 6px 16px rgba(0, 0, 0, 0.16));
+  }
+  &-img {
+    & img {
+      width: 100%;
+      border-radius: 12px;
     }
-    &-wrapper{
-        padding: 30px 25px;
-        box-shadow: (0 6px 16px rgba(0, 0, 0, 0.16));
-    }
-    &-img{
-        & img{
-            width: 100%;
-            border-radius: 12px;
-        }
-    }
-
+  }
+  &-cart {
+    width: 43px;
+    height: 43px;
+    background-color: var(--tp-primary-color);
+    border-radius: 64px;
+    text-align: center;
+    line-height: 2.3;
+  }
+  &-rating {
+    top: 10px;
+    left: 10px;
+    border-radius: 27px;
+    border: 4px solid rgba(155, 127, 127, 0.4);
+    height: 34px;
+    width: 70px;
+  }
 }

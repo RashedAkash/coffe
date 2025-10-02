@@ -37,7 +37,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 :root {
   --tp-theme-color: #0057FC;
-  --tp-primary-color: #0057FC;
+  --tp-primary-color: #FF902B;
+  --tp-secondary-color: #2F2105;
+  --tp-pra-color: #7E7D7A;
 }
 
 :root {
@@ -3879,6 +3881,606 @@ textarea {
   padding-left: 150px;
 }
 
+.pr-1 {
+  padding-right: 1px;
+}
+
+.pr-2 {
+  padding-right: 2px;
+}
+
+.pr-3 {
+  padding-right: 3px;
+}
+
+.pr-4 {
+  padding-right: 4px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-6 {
+  padding-right: 6px;
+}
+
+.pr-7 {
+  padding-right: 7px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pr-9 {
+  padding-right: 9px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-11 {
+  padding-right: 11px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.pr-13 {
+  padding-right: 13px;
+}
+
+.pr-14 {
+  padding-right: 14px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.pr-17 {
+  padding-right: 17px;
+}
+
+.pr-18 {
+  padding-right: 18px;
+}
+
+.pr-19 {
+  padding-right: 19px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-21 {
+  padding-right: 21px;
+}
+
+.pr-22 {
+  padding-right: 22px;
+}
+
+.pr-23 {
+  padding-right: 23px;
+}
+
+.pr-24 {
+  padding-right: 24px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pr-26 {
+  padding-right: 26px;
+}
+
+.pr-27 {
+  padding-right: 27px;
+}
+
+.pr-28 {
+  padding-right: 28px;
+}
+
+.pr-29 {
+  padding-right: 29px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-31 {
+  padding-right: 31px;
+}
+
+.pr-32 {
+  padding-right: 32px;
+}
+
+.pr-33 {
+  padding-right: 33px;
+}
+
+.pr-34 {
+  padding-right: 34px;
+}
+
+.pr-35 {
+  padding-right: 35px;
+}
+
+.pr-36 {
+  padding-right: 36px;
+}
+
+.pr-37 {
+  padding-right: 37px;
+}
+
+.pr-38 {
+  padding-right: 38px;
+}
+
+.pr-39 {
+  padding-right: 39px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-41 {
+  padding-right: 41px;
+}
+
+.pr-42 {
+  padding-right: 42px;
+}
+
+.pr-43 {
+  padding-right: 43px;
+}
+
+.pr-44 {
+  padding-right: 44px;
+}
+
+.pr-45 {
+  padding-right: 45px;
+}
+
+.pr-46 {
+  padding-right: 46px;
+}
+
+.pr-47 {
+  padding-right: 47px;
+}
+
+.pr-48 {
+  padding-right: 48px;
+}
+
+.pr-49 {
+  padding-right: 49px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pr-51 {
+  padding-right: 51px;
+}
+
+.pr-52 {
+  padding-right: 52px;
+}
+
+.pr-53 {
+  padding-right: 53px;
+}
+
+.pr-54 {
+  padding-right: 54px;
+}
+
+.pr-55 {
+  padding-right: 55px;
+}
+
+.pr-56 {
+  padding-right: 56px;
+}
+
+.pr-57 {
+  padding-right: 57px;
+}
+
+.pr-58 {
+  padding-right: 58px;
+}
+
+.pr-59 {
+  padding-right: 59px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+.pr-61 {
+  padding-right: 61px;
+}
+
+.pr-62 {
+  padding-right: 62px;
+}
+
+.pr-63 {
+  padding-right: 63px;
+}
+
+.pr-64 {
+  padding-right: 64px;
+}
+
+.pr-65 {
+  padding-right: 65px;
+}
+
+.pr-66 {
+  padding-right: 66px;
+}
+
+.pr-67 {
+  padding-right: 67px;
+}
+
+.pr-68 {
+  padding-right: 68px;
+}
+
+.pr-69 {
+  padding-right: 69px;
+}
+
+.pr-70 {
+  padding-right: 70px;
+}
+
+.pr-71 {
+  padding-right: 71px;
+}
+
+.pr-72 {
+  padding-right: 72px;
+}
+
+.pr-73 {
+  padding-right: 73px;
+}
+
+.pr-74 {
+  padding-right: 74px;
+}
+
+.pr-75 {
+  padding-right: 75px;
+}
+
+.pr-76 {
+  padding-right: 76px;
+}
+
+.pr-77 {
+  padding-right: 77px;
+}
+
+.pr-78 {
+  padding-right: 78px;
+}
+
+.pr-79 {
+  padding-right: 79px;
+}
+
+.pr-80 {
+  padding-right: 80px;
+}
+
+.pr-81 {
+  padding-right: 81px;
+}
+
+.pr-82 {
+  padding-right: 82px;
+}
+
+.pr-83 {
+  padding-right: 83px;
+}
+
+.pr-84 {
+  padding-right: 84px;
+}
+
+.pr-85 {
+  padding-right: 85px;
+}
+
+.pr-86 {
+  padding-right: 86px;
+}
+
+.pr-87 {
+  padding-right: 87px;
+}
+
+.pr-88 {
+  padding-right: 88px;
+}
+
+.pr-89 {
+  padding-right: 89px;
+}
+
+.pr-90 {
+  padding-right: 90px;
+}
+
+.pr-91 {
+  padding-right: 91px;
+}
+
+.pr-92 {
+  padding-right: 92px;
+}
+
+.pr-93 {
+  padding-right: 93px;
+}
+
+.pr-94 {
+  padding-right: 94px;
+}
+
+.pr-95 {
+  padding-right: 95px;
+}
+
+.pr-96 {
+  padding-right: 96px;
+}
+
+.pr-97 {
+  padding-right: 97px;
+}
+
+.pr-98 {
+  padding-right: 98px;
+}
+
+.pr-99 {
+  padding-right: 99px;
+}
+
+.pr-100 {
+  padding-right: 100px;
+}
+
+.pr-101 {
+  padding-right: 101px;
+}
+
+.pr-102 {
+  padding-right: 102px;
+}
+
+.pr-103 {
+  padding-right: 103px;
+}
+
+.pr-104 {
+  padding-right: 104px;
+}
+
+.pr-105 {
+  padding-right: 105px;
+}
+
+.pr-106 {
+  padding-right: 106px;
+}
+
+.pr-107 {
+  padding-right: 107px;
+}
+
+.pr-108 {
+  padding-right: 108px;
+}
+
+.pr-109 {
+  padding-right: 109px;
+}
+
+.pr-110 {
+  padding-right: 110px;
+}
+
+.pr-111 {
+  padding-right: 111px;
+}
+
+.pr-112 {
+  padding-right: 112px;
+}
+
+.pr-113 {
+  padding-right: 113px;
+}
+
+.pr-114 {
+  padding-right: 114px;
+}
+
+.pr-115 {
+  padding-right: 115px;
+}
+
+.pr-116 {
+  padding-right: 116px;
+}
+
+.pr-117 {
+  padding-right: 117px;
+}
+
+.pr-118 {
+  padding-right: 118px;
+}
+
+.pr-119 {
+  padding-right: 119px;
+}
+
+.pr-120 {
+  padding-right: 120px;
+}
+
+.pr-121 {
+  padding-right: 121px;
+}
+
+.pr-122 {
+  padding-right: 122px;
+}
+
+.pr-123 {
+  padding-right: 123px;
+}
+
+.pr-124 {
+  padding-right: 124px;
+}
+
+.pr-125 {
+  padding-right: 125px;
+}
+
+.pr-126 {
+  padding-right: 126px;
+}
+
+.pr-127 {
+  padding-right: 127px;
+}
+
+.pr-128 {
+  padding-right: 128px;
+}
+
+.pr-129 {
+  padding-right: 129px;
+}
+
+.pr-130 {
+  padding-right: 130px;
+}
+
+.pr-131 {
+  padding-right: 131px;
+}
+
+.pr-132 {
+  padding-right: 132px;
+}
+
+.pr-133 {
+  padding-right: 133px;
+}
+
+.pr-134 {
+  padding-right: 134px;
+}
+
+.pr-135 {
+  padding-right: 135px;
+}
+
+.pr-136 {
+  padding-right: 136px;
+}
+
+.pr-137 {
+  padding-right: 137px;
+}
+
+.pr-138 {
+  padding-right: 138px;
+}
+
+.pr-139 {
+  padding-right: 139px;
+}
+
+.pr-140 {
+  padding-right: 140px;
+}
+
+.pr-141 {
+  padding-right: 141px;
+}
+
+.pr-142 {
+  padding-right: 142px;
+}
+
+.pr-143 {
+  padding-right: 143px;
+}
+
+.pr-144 {
+  padding-right: 144px;
+}
+
+.pr-145 {
+  padding-right: 145px;
+}
+
+.pr-146 {
+  padding-right: 146px;
+}
+
+.pr-147 {
+  padding-right: 147px;
+}
+
+.pr-148 {
+  padding-right: 148px;
+}
+
+.pr-149 {
+  padding-right: 149px;
+}
+
+.pr-150 {
+  padding-right: 150px;
+}
+
 .w-img img {
   width: 100%;
 }
@@ -3943,14 +4545,72 @@ img {
 .br-12 {
   border-radius: 12px;
 }
+.br-27 {
+  border-radius: 27px;
+}
+.br-50 {
+  border-radius: 50px;
+}
+
+.fns-14 {
+  font-size: 14px;
+}
+.fns-24 {
+  font-size: 24px;
+}
+
+.fnw-700 {
+  font-weight: 700;
+}
+.fnw-600 {
+  font-weight: 600;
+}
+
+.color-black-1 {
+  color: var(--tp-secondary-color);
+}
+.color-gray {
+  color: var(--tp-pra-color);
+}
+
+.lts-56 {
+  letter-spacing: 0.56px;
+}
+
+.tpheading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1.28px;
+  line-height: 1;
+}
+.tpheading span {
+  border-bottom: 4px solid #ff902b;
+}
 
 .tpproduct-wrapper {
-  padding: 30px 25px;
+  padding: 25px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
 }
 .tpproduct-img img {
   width: 100%;
   border-radius: 12px;
+}
+.tpproduct-cart {
+  width: 43px;
+  height: 43px;
+  background-color: var(--tp-primary-color);
+  border-radius: 64px;
+  text-align: center;
+  line-height: 2.3;
+}
+.tpproduct-rating {
+  top: 10px;
+  left: 10px;
+  border-radius: 27px;
+  border: 4px solid rgba(155, 127, 127, 0.4);
+  height: 34px;
+  width: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */

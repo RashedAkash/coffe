@@ -30,3 +30,8 @@
     padding-left: #{$i}px;
   }
 }
+@for $i from 1 through 150 {
+  .pr-#{$i} {
+    padding-right: #{$i}px;
+  }
+}

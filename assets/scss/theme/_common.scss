@@ -54,16 +54,71 @@ img {
 .bg {
   &-gray {
     background-color: rgba(0, 0, 0, 0.16);
-    
   }
   &-white {
     background-color: white;
-    
   }
 }
 // border radious
-.br{
-	&-12{
-		border-radius: 12px;
-	}
+.br {
+  &-12 {
+    border-radius: 12px;
+  }
+  &-27 {
+    border-radius: 27px;
+  }
+  &-50 {
+    border-radius: 50px;
+  }
+}
+
+.fns {
+  &-14 {
+    font-size: 14px;
+  }
+  &-24 {
+    font-size: 24px;
+  }
+}
+
+//font weight
+.fnw {
+  &-700 {
+    font-weight: 700;
+  }
+  &-600 {
+    font-weight: 600;
+  }
+}
+
+//color
+.color {
+  &-black {
+    &-1 {
+      color: var(--tp-secondary-color);
+    }
+  }
+  &-gray {
+    color: var(--tp-pra-color);
+  }
+}
+
+//letter spacing
+.lts {
+  &-56 {
+    letter-spacing: 0.56px;
+  }
+}
+
+// tpheading
+.tpheading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1.28px;
+  line-height: 1;
+  & span {
+    border-bottom: 4px solid #ff902b;
+     
+  }
 }
