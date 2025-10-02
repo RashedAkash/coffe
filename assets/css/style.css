@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
     Template Name: Exdos - Creative Agency HTML Template
@@ -4555,10 +4556,16 @@ img {
 .fns-14 {
   font-size: 14px;
 }
+.fns-18 {
+  font-size: 18px;
+}
 .fns-24 {
   font-size: 24px;
 }
 
+.fnw-400 {
+  font-weight: 400;
+}
 .fnw-700 {
   font-weight: 700;
 }
@@ -4566,6 +4573,9 @@ img {
   font-weight: 600;
 }
 
+.color-black {
+  color: #000;
+}
 .color-black-1 {
   color: var(--tp-secondary-color);
 }
@@ -4575,6 +4585,12 @@ img {
 
 .lts-56 {
   letter-spacing: 0.56px;
+}
+.lts-72 {
+  letter-spacing: 0.72px;
+}
+.lts-96 {
+  letter-spacing: 0.96px;
 }
 
 .tpheading {
@@ -4586,6 +4602,15 @@ img {
 }
 .tpheading span {
   border-bottom: 4px solid #ff902b;
+}
+
+.tpbtn-secondary {
+  background-color: #2f2105;
+  font-size: 12px;
+  font-weight: 700;
+  color: #f4ae26;
+  padding: 10px 24px;
+  border-radius: 33px;
 }
 
 .tpproduct-wrapper {
@@ -4611,6 +4636,22 @@ img {
   border: 4px solid rgba(155, 127, 127, 0.4);
   height: 34px;
   width: 70px;
+}
+
+.tpabout-img {
+  border-radius: 12px;
+  margin-top: -75px;
+}
+.tpabout-img img {
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+}
+
+[data-bg-img] {
+  background-image: url("assets/img/bg/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* চাইলে যোগ করতে পারেন */
+  background-position: center; /* image center এ থাকবে */
 }
 
 /*# sourceMappingURL=style.css.map */

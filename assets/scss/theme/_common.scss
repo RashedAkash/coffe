@@ -76,6 +76,9 @@ img {
   &-14 {
     font-size: 14px;
   }
+  &-18 {
+    font-size: 18px;
+  }
   &-24 {
     font-size: 24px;
   }
@@ -83,6 +86,9 @@ img {
 
 //font weight
 .fnw {
+  &-400 {
+    font-weight: 400;
+  }
   &-700 {
     font-weight: 700;
   }
@@ -94,6 +100,7 @@ img {
 //color
 .color {
   &-black {
+    color: #000;
     &-1 {
       color: var(--tp-secondary-color);
     }
@@ -107,6 +114,12 @@ img {
 .lts {
   &-56 {
     letter-spacing: 0.56px;
+  }
+  &-72 {
+    letter-spacing: 0.72px;
+  }
+  &-96 {
+    letter-spacing: 0.96px;
   }
 }
 
