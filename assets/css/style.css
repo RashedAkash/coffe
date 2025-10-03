@@ -4711,7 +4711,6 @@ img {
 
 .tpabout-area {
   width: 100%; /* ফুল উইডথ */
-  min-height: 500px; /* ডেমোর জন্য */
   background-repeat: no-repeat; /* রিপিট করবে না */
   background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
   background-position: center; /* মাঝখানে থাকবে */
@@ -4723,6 +4722,66 @@ img {
 .tpabout-img img {
   border: 4px solid rgba(255, 255, 255, 0.7);
   border-radius: 12px;
+}
+
+.tpheader-area {
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tpheader-menu ul li {
+  font-size: 18px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 10px 0;
+  position: relative;
+  transition: all 0.3s;
+}
+.tpheader-menu ul li:hover > a {
+  color: var(--tp-primary-color);
+}
+.tpheader-menu ul li:hover > .sub-menu {
+  top: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+.tpheader-menu ul li .sub-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #000;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.tpheader-menu ul li .sub-menu ul li {
+  padding-left: 20px;
+}
+.tpheader-menu ul li .sub-menu ul li:hover > a {
+  color: var(--tp-primary-color);
+}
+.tpheader-menu ul li .sub-menu ul li a {
+  color: white;
+}
+.tpheader-menu ul li a {
+  color: #000;
+}
+.tpheader-right {
+  padding-left: -15px;
+}
+.tpheader-right-input {
+  width: 200px !important;
+  height: 40px !important;
+  font-size: 12px !important;
+  color: #929292 !important;
+  padding-left: 50px !important;
+}
+.tpheader-search {
+  left: 15px;
+  top: 10px;
 }
 
 .tphero-area {
@@ -4765,10 +4824,10 @@ img {
 
 .tpnewsletter-area {
   width: 100%; /* ফুল উইডথ */
-  min-height: 500px; /* ডেমোর জন্য */
   background-repeat: no-repeat; /* রিপিট করবে না */
   background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
   background-position: center; /* মাঝখানে থাকবে */
+  background-attachment: fixed;
 }
 .tpnewsletter-btn {
   right: 335px;

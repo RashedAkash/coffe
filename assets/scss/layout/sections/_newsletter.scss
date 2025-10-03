@@ -2,10 +2,11 @@
 .tpnewsletter {
   &-area {
     width: 100%; /* ফুল উইডথ */
-    min-height: 500px; /* ডেমোর জন্য */
+
     background-repeat: no-repeat; /* রিপিট করবে না */
     background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
     background-position: center; /* মাঝখানে থাকবে */
+    background-attachment: fixed;
   }
   &-btn {
     right: 335px;
