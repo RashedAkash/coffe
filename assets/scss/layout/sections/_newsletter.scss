@@ -1,0 +1,15 @@
+@use "../../utils/" as *;
+.tpnewsletter {
+  &-btn {
+    right: 335px;
+    top: 9%;
+  }
+  &-overlay {
+    background: #000;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.4;
+  }
+}

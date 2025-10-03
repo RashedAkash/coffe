@@ -23,16 +23,20 @@ img {
 
 .z-index-1 {
   z-index: 1;
+  position: relative;
 }
 .z-index-2 {
   z-index: 2;
+  position: relative;
 }
 .z-index-3 {
   z-index: 3;
+  position: relative;
 }
 
 .z-index-11 {
   z-index: 11;
+  position: relative;
 }
 .overflow-y-visible {
   overflow-x: hidden;
@@ -50,6 +54,18 @@ img {
   position: absolute;
 }
 
+// tpheading
+.tpheading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1.28px;
+  line-height: 1;
+  & span {
+    border-bottom: 4px solid #ff902b;
+  }
+}
+
 //bacground
 .bg {
   &-gray {
@@ -61,6 +77,9 @@ img {
 }
 // border radious
 .br {
+  &-8 {
+    border-radius: 8px;
+  }
   &-12 {
     border-radius: 12px;
   }
@@ -73,6 +92,9 @@ img {
 }
 
 .fns {
+  &-12 {
+    font-size: 12px;
+  }
   &-14 {
     font-size: 14px;
   }
@@ -81,6 +103,9 @@ img {
   }
   &-24 {
     font-size: 24px;
+  }
+  &-48 {
+    font-size: 48px;
   }
 }
 
@@ -99,6 +124,9 @@ img {
 
 //color
 .color {
+  &-white {
+    color: white;
+  }
   &-black {
     color: #000;
     &-1 {
@@ -108,12 +136,24 @@ img {
   &-gray {
     color: var(--tp-pra-color);
   }
+  &-yellow {
+    color: var(--tp-primary-color);
+    &-1 {
+      color: #ffd28f;
+    }
+  }
+  &-coffe {
+    color: var(--tp-secondary-color);
+  }
 }
 
 //letter spacing
 .lts {
   &-56 {
     letter-spacing: 0.56px;
+  }
+  &-64 {
+    letter-spacing: 0.64px;
   }
   &-72 {
     letter-spacing: 0.72px;
@@ -123,15 +163,9 @@ img {
   }
 }
 
-// tpheading
-.tpheading {
-  font-size: 32px;
-  font-weight: 600;
-  color: #000;
-  letter-spacing: 1.28px;
-  line-height: 1;
-  & span {
-    border-bottom: 4px solid #ff902b;
-     
+//border
+.bdr {
+  &-2 {
+    border: 2px solid #ffd28f;
   }
 }
