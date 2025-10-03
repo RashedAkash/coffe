@@ -4567,6 +4567,9 @@ img {
 .br-27 {
   border-radius: 27px;
 }
+.br-42 {
+  border-radius: 42px;
+}
 .br-50 {
   border-radius: 50px;
 }
@@ -4635,6 +4638,9 @@ img {
 .bdr-2 {
   border: 2px solid #ffd28f;
 }
+.bdr-4 {
+  border: 4px solid rgba(155, 127, 127, 0.4);
+}
 
 .tpbtn-secondary {
   background-color: #2f2105;
@@ -4688,7 +4694,28 @@ img {
 .tpproduct-menu {
   padding: 2px 14px;
 }
+.tpproduct-popular {
+  transform: translateY(-35%);
+}
 
+.tppopularproduct-area {
+  width: 100%; /* ফুল উইডথ */
+  max-height: 364px; /* ডেমোর জন্য */
+  background-repeat: no-repeat; /* রিপিট করবে না */
+  background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+  background-position: center; /* মাঝখানে থাকবে */
+  margin-top: -123px;
+  z-index: 2;
+  position: relative;
+}
+
+.tpabout-area {
+  width: 100%; /* ফুল উইডথ */
+  min-height: 500px; /* ডেমোর জন্য */
+  background-repeat: no-repeat; /* রিপিট করবে না */
+  background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+  background-position: center; /* মাঝখানে থাকবে */
+}
 .tpabout-img {
   border-radius: 12px;
   margin-top: -75px;
@@ -4698,23 +4725,51 @@ img {
   border-radius: 12px;
 }
 
-[data-bg-img] {
-  background-image: url("assets/img/bg/about.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; /* চাইলে যোগ করতে পারেন */
-  background-position: center; /* image center এ থাকবে */
-}
-
 .tphero-area {
-  padding-top: 240px;
-  padding-bottom: 450px;
+  padding-top: 180px;
+  padding-bottom: 425px;
+  width: 100%; /* ফুল উইডথ */
+  min-height: 500px; /* ডেমোর জন্য */
+  background-repeat: no-repeat; /* রিপিট করবে না */
+  background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+  background-position: center; /* মাঝখানে থাকবে */
 }
 .tphero-img-round {
   top: 57%;
   left: -9%;
   transform: translateY(-50%);
 }
+.tphero-rating {
+  padding: 11px 33px;
+  top: 20%;
+  right: -6%;
+}
+.tphero-name {
+  left: -30%;
+  top: 7%;
+  padding: 10px 56px;
+}
+.tphero-tk {
+  bottom: 3%;
+  left: -26%;
+  padding: 10px 40px;
+}
+.tphero-shape-1 {
+  left: 0px;
+  bottom: 0px;
+}
+.tphero-shape-2 {
+  right: 0;
+  top: 0;
+}
 
+.tpnewsletter-area {
+  width: 100%; /* ফুল উইডথ */
+  min-height: 500px; /* ডেমোর জন্য */
+  background-repeat: no-repeat; /* রিপিট করবে না */
+  background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+  background-position: center; /* মাঝখানে থাকবে */
+}
 .tpnewsletter-btn {
   right: 335px;
   top: 9%;

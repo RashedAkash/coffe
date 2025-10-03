@@ -1,16 +1,44 @@
 @use "../../utils/" as *;
 .tphero {
   &-area {
-    padding-top: 240px;
-    padding-bottom: 450px;
+    padding-top: 180px;
+    padding-bottom: 425px;
+    width: 100%; /* ফুল উইডথ */
+    min-height: 500px; /* ডেমোর জন্য */
+    background-repeat: no-repeat; /* রিপিট করবে না */
+    background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+    background-position: center; /* মাঝখানে থাকবে */
   }
   &-img {
     &-round {
       top: 57%;
       left: -9%;
       transform: translateY(-50%);
-      
+    }
+  }
+  &-rating {
+    padding: 11px 33px;
+    top: 20%;
+    right: -6%;
+  }
+  &-name {
+    left: -30%;
+    top: 7%;
+    padding: 10px 56px;
+  }
+  &-tk {
+    bottom: 3%;
+    left: -26%;
+    padding: 10px 40px;
+  }
+  &-shape {
+    &-1 {
+      left: 0px;
+      bottom: 0px;
+    }
+    &-2 {
+      right: 0;
+      top: 0;
     }
   }
 }
-

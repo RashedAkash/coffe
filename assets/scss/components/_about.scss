@@ -1,5 +1,12 @@
 @use "../utils/" as *;
 .tpabout {
+  &-area {
+    width: 100%; /* ফুল উইডথ */
+    min-height: 500px; /* ডেমোর জন্য */
+    background-repeat: no-repeat; /* রিপিট করবে না */
+    background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+    background-position: center; /* মাঝখানে থাকবে */
+  }
   &-img {
     border-radius: 12px;
     margin-top: -75px;
@@ -8,10 +15,4 @@
       border-radius: 12px;
     }
   }
-}
-[data-bg-img] {
-  background-image: url("assets/img/bg/about.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; /* চাইলে যোগ করতে পারেন */
-  background-position: center; /* image center এ থাকবে */
 }

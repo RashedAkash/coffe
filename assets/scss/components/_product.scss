@@ -1,6 +1,8 @@
 @use "../utils/" as *;
 .tpproduct {
   &-area {
+   
+   
   }
   &-wrapper {
     padding: 25px;
@@ -32,4 +34,20 @@
   &-menu {
     padding: 2px 14px;
   }
+  &-popular {
+    transform: translateY(-35%);
+  }
 }
+
+.tppopularproduct-area{
+   width: 100%; /* ফুল উইডথ */
+   max-height: 364px; /* ডেমোর জন্য */
+    background-repeat: no-repeat; /* রিপিট করবে না */
+    background-size: cover; /* পুরো ব্যাকগ্রাউন্ড কভার করবে */
+    background-position: center; /* মাঝখানে থাকবে */
+     margin-top: -123px;
+    z-index: 2;
+    position: relative;
+
+}
+ 
