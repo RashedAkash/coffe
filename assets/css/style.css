@@ -4593,6 +4593,9 @@ img {
 .fnw-400 {
   font-weight: 400;
 }
+.fnw-500 {
+  font-weight: 500;
+}
 .fnw-700 {
   font-weight: 700;
 }
@@ -4640,6 +4643,9 @@ img {
 }
 .bdr-4 {
   border: 4px solid rgba(155, 127, 127, 0.4);
+}
+.bdr-6 {
+  border: 6px solid #ffd28f;
 }
 
 .tpbtn-secondary {
@@ -4840,6 +4846,21 @@ img {
   height: 100%;
   top: 0;
   opacity: 0.4;
+}
+
+.tptestimonial-designation {
+  border-radius: 8px;
+  border: 6px solid rgba(255, 211, 144, 0.62);
+  background: #ffcb7c;
+  padding: 5px;
+  bottom: 20px;
+  right: 23px;
+  width: 240px;
+  height: 100px;
+}
+
+.swiper.tptestimonial-slider-active.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -39,36 +39,44 @@
     $(this).css("color", $(this).attr("data-color"));
   });
 
-  $(".popup-image").magnificPopup({
-    type: "image",
-    // other options
-  });
+  // $(".popup-image").magnificPopup({
+  //   type: "image",
+  //   // other options
+  // });
 
-  $(".popup-video").magnificPopup({
-    type: "iframe",
-    // other options
-  });
+  // $(".popup-video").magnificPopup({
+  //   type: "iframe",
+  //   // other options
+  // });
 
-  // tpcauses slider
-  var swiper = new Swiper(".tpcauses-slider-active", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    navigation: {
-      prevEl: ".tp-arrow-prev",
-      nextEl: ".tp-arrow-next",
+// tptestimonial slider
+var swiper = new Swiper(".tptestimonial-slider-active", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
     },
-    breakpoints: {
-      300: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1200: {
-        slidesPerView: 3,
-      },
+    768: {
+      slidesPerView: 2,
     },
-  });
+    1200: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+ 
+
 
   // tptext slider
   var swiper_text = new Swiper(".tpcauses-text-slider-active", {

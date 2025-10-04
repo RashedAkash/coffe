@@ -1,0 +1,17 @@
+@use "../../utils/" as *;
+.tptestimonial {
+  &-designation {
+    border-radius: 8px;
+    border: 6px solid rgba(255, 211, 144, 0.62);
+    background: #ffcb7c;
+    padding: 5px;
+    bottom: 20px;
+    right: 23px;
+    width: 240px;
+    height: 100px;
+  }
+}
+
+.swiper.tptestimonial-slider-active.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  margin-right: 10px;
+}

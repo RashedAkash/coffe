@@ -117,6 +117,9 @@ img {
   &-400 {
     font-weight: 400;
   }
+  &-500 {
+    font-weight: 500;
+  }
   &-700 {
     font-weight: 700;
   }
@@ -173,5 +176,8 @@ img {
   }
   &-4 {
     border: 4px solid rgba(155, 127, 127, 0.4);
+  }
+  &-6 {
+    border: 6px solid #ffd28f;
   }
 }
