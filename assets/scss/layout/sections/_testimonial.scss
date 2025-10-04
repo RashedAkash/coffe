@@ -10,8 +10,24 @@
     width: 240px;
     height: 100px;
   }
+  &-shape {
+    border-radius: 0 24px 24px 0;
+     @media #{$lg} {
+      height: 100%;
+    }
+  }
+  &-wrapper {
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+  &-pra{
+      @media #{$lg} {
+      font-size: 16px;
+    }
+  }
 }
 
 .swiper.tptestimonial-slider-active.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
   margin-right: 10px;
+  margin-top: -25px;
 }

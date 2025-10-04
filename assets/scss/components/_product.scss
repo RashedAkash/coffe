@@ -36,6 +36,9 @@
   }
   &-popular {
     transform: translateY(-35%);
+    @media #{$lg} {
+      transform: translateY(0);
+    }
   }
 }
 
@@ -48,6 +51,11 @@
      margin-top: -123px;
     z-index: 2;
     position: relative;
+    @media #{$lg} {
+      margin-top: 0;
+      padding: 120px 0;
+      padding-bottom: 380px;
+    }
 
 }
  

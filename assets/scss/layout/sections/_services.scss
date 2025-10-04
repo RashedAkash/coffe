@@ -1,1 +1,8 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+.tpservices {
+  &-area {
+    @media #{$lg} {
+      padding-bottom: 200px;
+    }
+  }
+}

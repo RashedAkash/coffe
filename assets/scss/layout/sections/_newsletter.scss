@@ -11,6 +11,10 @@
   &-btn {
     right: 335px;
     top: 9%;
+      @media #{$lg} {
+      right: 230px;
+    }
+      
   }
   &-overlay {
     background: #000;

@@ -4703,6 +4703,11 @@ img {
 .tpproduct-popular {
   transform: translateY(-35%);
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpproduct-popular {
+    transform: translateY(0);
+  }
+}
 
 .tppopularproduct-area {
   width: 100%; /* ফুল উইডথ */
@@ -4713,6 +4718,13 @@ img {
   margin-top: -123px;
   z-index: 2;
   position: relative;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tppopularproduct-area {
+    margin-top: 0;
+    padding: 120px 0;
+    padding-bottom: 380px;
+  }
 }
 
 .tpabout-area {
@@ -4828,6 +4840,12 @@ img {
   top: 0;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpservices-area {
+    padding-bottom: 200px;
+  }
+}
+
 .tpnewsletter-area {
   width: 100%; /* ফুল উইডথ */
   background-repeat: no-repeat; /* রিপিট করবে না */
@@ -4838,6 +4856,11 @@ img {
 .tpnewsletter-btn {
   right: 335px;
   top: 9%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpnewsletter-btn {
+    right: 230px;
+  }
 }
 .tpnewsletter-overlay {
   background: #000;
@@ -4858,9 +4881,27 @@ img {
   width: 240px;
   height: 100px;
 }
+.tptestimonial-shape {
+  border-radius: 0 24px 24px 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tptestimonial-shape {
+    height: 100%;
+  }
+}
+.tptestimonial-wrapper {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tptestimonial-pra {
+    font-size: 16px;
+  }
+}
 
 .swiper.tptestimonial-slider-active.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
   margin-right: 10px;
+  margin-top: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */

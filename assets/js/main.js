@@ -14,7 +14,7 @@
       $(".tp-offcanvas-overlay").removeClass("tp-offcanvas-overlay-open");
     }
   );
-  document.querySelectorAll("[data-bg-img]").forEach(function(el) {
+  document.querySelectorAll("[data-bg-img]").forEach(function (el) {
     let bg = el.getAttribute("data-bg-img");
     el.style.backgroundImage = "url('" + bg + "')";
   });
@@ -49,33 +49,28 @@
   //   // other options
   // });
 
-// tptestimonial slider
-var swiper = new Swiper(".tptestimonial-slider-active", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  
-  breakpoints: {
-    300: {
-      slidesPerView: 1,
+  // tptestimonial slider
+  var swiper = new Swiper(".tptestimonial-slider-active", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
     },
-    768: {
-      slidesPerView: 2,
-    },
-    1200: {
-      slidesPerView: 3,
-    },
-  },
-});
 
-var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+    breakpoints: {
+      300: {
+        slidesPerView: 1,
       },
-    });
- 
+      768: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
 
 
   // tptext slider
